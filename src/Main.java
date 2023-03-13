@@ -6,7 +6,11 @@ class Main{
 //        float x = sc.nextFloat();
 //        int x = sc.nextInt(); // It only accepts data without decimal places
 //        String x = sc.next(); // It scans till the blank character
-        String x = sc.nextLine(); // It scans till the next Line
-        System.out.println(x);
+//        String x = sc.nextLine(); // It scans till the next Line
+//        System.out.println(x);
+//        short x = sc.nextShort();
+//        System.out.println(x);
+        boolean x = sc.nextBoolean();
+        System.out.println(x);// Only inputs the string true and false
     }
 }
