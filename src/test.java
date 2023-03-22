@@ -32,5 +32,31 @@ public class test {
 //        System.out.println(a);
 //        5
 
+
+//        int x = 001, y=010, z=100;
+//        int i = --x + y++ - z-- - --z + ++y - --x + y-- - --x;
+//        System.out.println(x);
+//        System.out.println(y);
+//        System.out.println(z);
+//        System.out.println(i);
+//        -2
+//        9
+//        98
+//                -167
+
+//        int ch = 'A';
+//        System.out.println(ch++);
+//        65
+
+//        char ch = 'A';
+//        System.out.println(++ch);
+//        B
+
+//        char ch = "123".charAt(1);
+//        System.out.println(ch++ + ++ch);
+//        // 102 the ascii values gets added 50(51) + 52 = 102
+//
+        int i=0, j=0;
+        System.out.println(--i * i++ * ++j * j++);
     }
 }
