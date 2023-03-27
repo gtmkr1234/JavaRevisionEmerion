@@ -49,14 +49,31 @@ public class new2703 {
 //        System.out.println(res);
 
 
-        // Calculate Binary to decimal
-        int a = s.nextInt();
-        int res =0;
-        int i=0;
+//        // Calculate Binary to decimal
+//        int a = s.nextInt();
+//        int res =0;
+//        int i=0;
+//        while(a>0){
+//            res = (int) (res + a%10*Math.pow(2,i++));
+//            a/=10;
+//        }
+//        System.out.println(res);
+
+
+        // Strong Number
+        int b = s.nextInt();
+        int a=b;
+        int res = 0;
         while(a>0){
-            res = (int) (res + a%10*Math.pow(2,i++));
+            res+= fact(a%10);
             a/=10;
         }
-        System.out.println(res);
+        System.out.println(res==b?"Strong":"Weak"+" Number");
+    }
+    public static int fact(int n){
+        if(n==0 || n==1){
+            return 1;
+        }
+        return n*fact(n-1);
     }
 }
