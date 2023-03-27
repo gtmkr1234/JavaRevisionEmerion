@@ -24,4 +24,5 @@ public class test3 {
 //        }
 //        System.out.println(res);
 //    }
+        System.out.println(Math.pow(2,3));
 }}
