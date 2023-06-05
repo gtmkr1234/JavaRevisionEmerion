@@ -35,11 +35,12 @@ public class new2803 {
 //        float a = 8.2f/2;
 //        System.out.println(a);
 
-        byte b = 25;
-        b++;
-        b+=1;
+//        byte b = 25;
+//        b++;
+//        b+=1;
+//        System.out.println(b);
+byte b = (byte) 260;
         System.out.println(b);
-
 
     }
 }
