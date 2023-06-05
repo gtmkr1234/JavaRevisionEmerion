@@ -29,6 +29,9 @@ public class new2803 {
 //        System.out.println(s1==s2); true
 //        System.out.println(s3==s2); false
 //        System.out.println(s1==s3);false
+        int a= 9;
+        float b = (float)a/2;
+        System.out.println(b);
 
 
     }
