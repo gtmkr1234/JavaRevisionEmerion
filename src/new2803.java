@@ -32,8 +32,13 @@ public class new2803 {
 //        int a= 9;
 //        float b = (float)a/2;
 //        System.out.println(b);
-        float a = 8.2f/2;
-        System.out.println(a);
+//        float a = 8.2f/2;
+//        System.out.println(a);
+
+        byte b = 25;
+        b++;
+        b+=1;
+        System.out.println(b);
 
 
     }
